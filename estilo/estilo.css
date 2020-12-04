@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../imagenes/tile-sky2.jpg");
+    background-repeat: repeat;
+    padding: 5%;
+    
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+#header {
+    background-image: url("../imagenes/dragon1.jpg");
+    width: 100vh;
+    height: 100vh;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+
+}
+#header h1{
+    color: blueviolet;
+    font-family: "../fuentes/DragonFire.ttf";
+    background-color: rgba(120, 194, 228, 0.562);
+    top: 50%;
+}
+
+#texto {
+    background-image: url("../imagenes/tile.jpg");
+    font-family: ;
+    font-size: 1em;
+    margin: auto;
+
+}
+
+#texto h3 {
+
+}
+
+#texto p {
+
+}
+
+#imagenes {
+    background-color: grey;
+    margin: auto;
+
+}
+
+#eragon {
+    padding: 1%;
+}
+#eldest {
+    padding: 1%;
+}
+#brisingr {
+    padding: 1%;
+}
+#legado {
+    padding: 1%;
+}
+
+footer {
+    background-image: url("../imagenes/tile.jpg");
+    color: white;
+    font-size: 1em;
+    text-align: center;
+
+}
